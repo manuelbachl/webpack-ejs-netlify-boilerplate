@@ -16,9 +16,6 @@ const appHtmlTitle = 'Webpack 4 + EJS + Netlify Boilerplate';
  */
 module.exports = {
     entry: {
-        vendor: [
-            'lodash'
-        ],
         bundle: path.join(dirApp, 'index')
     },
     resolve: {

@@ -4,17 +4,21 @@
   "description": "Plain webpack 4 boilerplate with Babel, Bootstrap 4, jQuery and SASS for deployment on netlify",
   "author": "Manuel Bachl",
   "license": "MIT",
-  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
+  "homepage": "https://github.com/manuelbachl/webpack-ejs-netlify-boilerplate",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
     "build": "webpack -p --progress --mode production --config webpack.config.build.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://cvgellhorn@github.com/cvgellhorn/webpack-boilerplate.git"
+    "url": "https://github.com/manuelbachl/webpack-ejs-netlify-boilerplate.git"
   },
   "dependencies": {
-
+    "angled-edges": "^2.0.0",
+    "bootstrap": "^4.1.1",
+    "github-api": "^3.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "babel-core": "6.26.3",

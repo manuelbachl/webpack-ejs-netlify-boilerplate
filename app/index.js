@@ -2,9 +2,6 @@
  * Application entry point
  */
 
-// Load application styles
+import $ from 'jquery';
 import 'styles/index.scss';
 
-// ================================
-// START YOUR APP HERE
-// ================================
